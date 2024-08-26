@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_grus.mk
+    $(LOCAL_DIR)/orion_grus.mk
+
+COMMON_LUNCH_CHOICES := \
+    orion_grus-user \
+    orion_grus-userdebug \
+    orion_grus-eng
